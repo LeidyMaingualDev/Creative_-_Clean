@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+ *{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto Slab", serif;
+    
+}
+.imagen1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(../assets/img/bgHeader.png);
+    background-size: cover; /* recorta para cubrir todo */
+    background-position: center;
+}
+.imagen1 h1{
+    color: #ff8a41;
+    align-content: center;
+}
