@@ -34,6 +34,9 @@
 
  .view {
    background-color: #e66617;
+   background: linear-gradient(
+        90deg, rgb(254, 158, 85), rgb(255, 137, 64)
+    );
    border: none;
    border-radius: 40px;
    color: white;
@@ -53,7 +56,6 @@
  .contenido1 {
    display: flex;
    flex-direction: row;
-   /* lado a lado */
    justify-content: space-between;
    align-items: center;
    padding: 2rem;
@@ -62,7 +64,6 @@
  .contenido2 {
    display: flex;
    flex-direction: row;
-   /* lado a lado */
    justify-content: space-between;
    align-items: center;
    padding: 2rem;
@@ -75,14 +76,12 @@
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   /* alinea texto a la izquierda */
    gap: 1rem;
  }
 
  .texto2 {
    align-items: flex-start;
-   /* inverso a texto1 */
-
+   
  }
 
  .texto h3 {
@@ -139,7 +138,6 @@
    height: 100vh;
    display: flex;
    flex-direction: column;
-   /* importante */
    justify-content: center;
    align-items: flex-start;
    background-image: url(../assets/img/bgDown.png);
@@ -167,8 +165,8 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background-color: #e66617; /* fondo oscuro para contraste */
-    color: white; /* texto blanco */
+    background-color: #e66617; 
+    color: white; 
     flex-wrap: wrap;
 }
 
@@ -178,7 +176,7 @@
 }
 
 .footer a:hover {
-    text-decoration: underline; /* opcional para efecto al pasar el mouse */
+    text-decoration: underline; 
 }
 
 .lista ul {
